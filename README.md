@@ -48,3 +48,17 @@ This implementation builds on
 -  for the Training pipeline.
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) for the pre-trained instruction following Language model.
 - [Whisper](https://github.com/openai/whisper) to obtain acoustic embeddings.
+
+- ### Reference
+
+If you consider this work would be related or useful for your research, please consider to cite this paper. Thank you!
+
+```bib
+@inproceedings{ Tentative below,
+  title={Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition},
+  author={Srijith Radhakrishnan, Chao-Han Huck Yang, Sumeer Ahmad Khan, Rohit Kumar, Narsis A. Kiani, David Gomez-Cabrero, Jesper N. Tegner},
+  booktitle={EMNLP},
+  year={2023}
+}
+```
+
