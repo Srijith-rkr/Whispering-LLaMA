@@ -3,13 +3,16 @@
 - Accepted at **EMNLP 2023 (Main Track)**
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
 
-<p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/model%20overview.svg" width="700"> </p>
+<p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/model%20overview.svg" height ="450"> </p>
 
 # Introduction 
-
+<p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/Prompt%20overview.svg" height ="450"> </p>
+<p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/Mechanism%20overview.svg" width="700"> </p>
 # Fine-tune and Run Inference
 
 # Setup
+
+# Training & Inference
 
 # Acknowledgements
 
