@@ -2,7 +2,7 @@
 
 - Accepted at **EMNLP 2023 (Main Track)**
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
-- Fuse Whisper Encoder and LLaMA decoder
+- Fusing Whisper Encoder and LLaMA decoder
 
 <p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/model%20overview.svg" height ="450"> </p>
 
