@@ -57,7 +57,7 @@ If you consider this work would be related or useful for your research, please c
 @inproceedings{ Tentative below,
   title={Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition},
   author={Srijith Radhakrishnan, Chao-Han Huck Yang, Sumeer Ahmad Khan, Rohit Kumar, Narsis A. Kiani, David Gomez-Cabrero, Jesper N. Tegner},
-  booktitle={EMNLP},
+  booktitle={Proc. of EMNLP},
   year={2023}
 }
 ```
