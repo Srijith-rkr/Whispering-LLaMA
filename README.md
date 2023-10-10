@@ -1,6 +1,6 @@
 # WHISPERing-LLaMA: Integrate Whisper Encoder to LLaMA Decoder
 
-- Accepted at **EMNLP 2023 (Main Track)**
+- Accepted at **EMNLP 2023 (Main Track)** | [Paper](https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/EMNLP-4032-Whispering-LLaMA.pdf)
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
 - Fusing Whisper Encoder and LLaMA decoder
 
