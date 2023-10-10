@@ -12,7 +12,7 @@ We introduce a novel cross-modal fusion technique designed for generative error 
 
 We propose a novel mechanism to fuse the acoustic features from the audio input into the LLM to significantly enhance the performance (28.83\% -> 37.66\% WERR) by leveraging an Audio Foundational model as a feature extractor. We further design our system in a parameter-efficient manner with only 7.97M trainable parameters as shown below. Please refer to the paper [YET] for further information.
 
-<p align="center">  <img src="https://github.com/Srijith-rkr/WHISPERing-LLaMA/blob/main/images/Mechanism%20overview.svg" width="700"> </p>
+<p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/Adapter_mechanism.svg" width="700"> </p>
 
 
 # Setup
