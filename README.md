@@ -45,7 +45,7 @@ Please refer to :
 # Acknowledgements
 
 This implementation builds on 
--  for the Training pipeline.
+-  [lit-llama](https://github.com/Lightning-AI/lit-llama) for the Training pipeline.
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca) for the pre-trained instruction following Language model.
 - [Whisper](https://github.com/openai/whisper) to obtain acoustic embeddings.
 
