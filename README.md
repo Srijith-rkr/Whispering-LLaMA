@@ -37,11 +37,18 @@ conda env create -f environment.yml
 You are all set! 🎉
 
 &nbsp;
+
+# Dataset 
+We have uploaded our N-best Hypotheses dataset generated using Whisper-Tiny on [Hugging Face PeacefulData](https://huggingface.co/datasets/PeacefulData/HyPoradise-v1-GigaSpeech). The hypotheses were generated using the Hugging Face [GigaSpeech dataset](https://huggingface.co/datasets/speechcolab/gigaspeech) M subset. You will be able to map the hypothesis on our dataset with the audio clips from the Gigaspeeh dataset using the 'ID' tag.
+
 # Training & Inference
 Please refer to :
 - data_preparation to generate your custom n-best hypothesis dataset
 - training/WL-M.py to train the best our best model on your dataset
 - Inference/WL-M.py to run inference
+
+# Model Weights
+We are working on hosting the model weights in Huggin Face models for easier setup.
 
 # Acknowledgements
 
