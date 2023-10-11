@@ -20,7 +20,7 @@ We propose a novel mechanism to fuse the acoustic features from the audio input 
 Clone the repo
 
 ```bash
-git clone https://github.com/Srijith-rkr/WHISPERing-LLaMA
+git clone https://github.com/Srijith-rkr/Whispering-LLaMA
 cd WHISPERing-LLaMA
 ```
 
