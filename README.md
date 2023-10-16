@@ -29,9 +29,14 @@ And use the environment.yml file to install dependencies with Anaconda.
 ```bash
 conda env create -f environment.yml
 ```
+Or you can also use the requirements.txt as
+```bash
+pip install -r requirements.txt
+```
+
 
 - To obtain the pre-trained Alpaca weights, please refer [here](https://github.com/tatsu-lab/stanford_alpaca#recovering-alpaca-weights). You can then use convert_hf_checkpoint.py to rename the state_dict the [lit-llama](https://github.com/Lightning-AI/lit-llama) implementation
-- Hosted Alpaca weights for easy implementation coming soon
+- Or you can use the Alpaca weights hosted in HuggingFace [Huggin Face/Whispering-LLaMA](https://huggingface.co/Srijith-rkr/Whispering-LLaMA). Refer to demo.py on how to use them.
 
 
 You are all set! 🎉
@@ -42,7 +47,7 @@ You are all set! 🎉
 We have uploaded our N-best Hypotheses dataset generated using Whisper-Tiny on [Hugging Face PeacefulData](https://huggingface.co/datasets/PeacefulData/HyPoradise-v1-GigaSpeech). The hypotheses were generated using the Hugging Face [GigaSpeech dataset](https://huggingface.co/datasets/speechcolab/gigaspeech) M subset. You will be able to map the hypothesis on our dataset with the audio clips from the Gigaspeeh dataset using the 'ID' tag.
 
 # Model Weights
-We are working on hosting the model weights in [Huggin Face/Whispering-LLaMA](https://huggingface.co/Srijith-rkr/Whispering-LLaMA) for easier setup.
+The model and tokenizer weights are hosted in [Huggin Face/Whispering-LLaMA](https://huggingface.co/Srijith-rkr/Whispering-LLaMA) for easier setup. You can refer to demo.py on how to use them. 
 
 # Training & Inference
 Please refer to :
@@ -50,6 +55,19 @@ Please refer to :
 - training/WL-M.py to train the best our best model on your dataset
 - Inference/WL-M.py to run inference
 
+- Once you setup your dataset, You can train your models as
+```bash
+python training/WL-S.py --lr 1e-3 --d 1 --pretrained_path 'weights/alpaca.pth' --tokenizer_path 'weights/tokenizer.model' --data 'path to your dataset'
+```
+You can configure the following flags.
+
+```
+--lr: learning rate (1e-3 is recommended)
+--d: Number of GPUs you are using to run the DDP strategy (You can uncomment lines in the code to switch to DeepSpeed)
+--pretrained_path: Path to the Alpaca model weights
+--tokenizer_path: Path to the LLaMA tokenizer
+--data: Path to your dataset
+```
 # Acknowledgements
 
 This implementation builds on 
