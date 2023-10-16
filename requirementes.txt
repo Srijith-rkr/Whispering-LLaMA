@@ -1,0 +1,19 @@
+# from Lit llama  : https://github.com/Lightning-AI/lit-llama/blob/main/requirements.txt
+
+torch>=2.0.0
+lightning @ git+https://github.com/Lightning-AI/lightning@master
+sentencepiece
+tqdm  # convert_checkpoint.py
+numpy  # train.py dataset memmap
+jsonargparse[signatures]  # generate.py, convert_checkpoint.py CLI
+bitsandbytes  # quantization.py
+datasets  # evaluate.py
+zstandard  # prepare_redpajama.
+
+# from Whisper  : https://github.com/openai/whisper/blob/main/requirements.txt
+
+numpy
+torch
+tqdm
+more-itertools
+tiktoken==0.3.3
