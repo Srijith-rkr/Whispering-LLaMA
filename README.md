@@ -5,7 +5,7 @@
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
 - Fusing Whisper Encoder and LLaMA decoder
 
-<p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/model%20overview.svg" height ="450"> </p>
+<p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/wl-arch.png" height ="450"> </p>
 
 # Introduction 
 We introduce a novel cross-modal fusion technique designed for generative error correction for Automatic Speech Recognition. In an oversimplified sense, We leverage In-Context learning to feed the n-best hypothesis produced by an Acoustic model into a Large Language model and prompt it to predict the most accurate sentence, as shown below.
