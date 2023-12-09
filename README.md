@@ -1,5 +1,11 @@
 # Whispering-LLaMA: Integrate Whisper Encoder to LLaMA Decoder
 
+
+
+
+<p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/whispering-llama.png" height ="450"> </p>
+
+
 - Accepted at **EMNLP 2023 (Main Track)** | <a href='https://arxiv.org/abs/2310.06434'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> | 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
