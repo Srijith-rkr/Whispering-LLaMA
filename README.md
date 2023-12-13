@@ -1,8 +1,6 @@
 # Whispering-LLaMA: Integrate Whisper Encoder to LLaMA Decoder
 
 
-https://docs.google.com/forms/d/1EhI4XkCng8616sA8-YS1cUUgDh-DV8Fp4UZaOPFvsUE/edit
-
 <p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/whispering-llama.png" height ="450"> </p>
 
 
