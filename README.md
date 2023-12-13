@@ -5,7 +5,7 @@
 
 
 - Accepted at **EMNLP 2023 (Main Track)** | <a href='https://arxiv.org/abs/2310.06434'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> | 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) | [Slides](https://docs.google.com/presentation/d/1TCpRos0-Fd-M0XMtZ1eJcd6RJQYa1ANG_NTfpkXGplM/edit?usp=sharing)
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
 - Fusing Whisper Encoder and LLaMA decoder
 
