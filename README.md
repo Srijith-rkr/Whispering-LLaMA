@@ -4,8 +4,7 @@
 <p align="center">  <img src="https://github.com/Srijith-rkr/Whispering-LLaMA/blob/main/images/whispering-llama.png" height ="450"> </p>
 
 
-- Accepted at **EMNLP 2023 (Main Track)** | <a href='https://arxiv.org/abs/2310.06434'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> | 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) | [Slides](https://docs.google.com/presentation/d/1TCpRos0-Fd-M0XMtZ1eJcd6RJQYa1ANG_NTfpkXGplM/edit?usp=sharing)
+- Accepted at **EMNLP 2023 (Main Track)** | [Paper](https://aclanthology.org/2023.emnlp-main.618/)  | [Slides](https://docs.google.com/presentation/d/1TCpRos0-Fd-M0XMtZ1eJcd6RJQYa1ANG_NTfpkXGplM/edit?usp=sharing) | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 - ASR Generative Error Correction by leveraging foundational Audio (Whisper) and Langugae (LLaMA) models.
 - Fusing Whisper Encoder and LLaMA decoder
 
